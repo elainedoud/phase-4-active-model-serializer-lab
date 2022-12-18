@@ -11,6 +11,11 @@ class PostsController < ApplicationController
     render json: post
   end
 
+  #def short_content
+    #short_content = Post.map.content[0]
+  #end
+  #short_content will need to be changed
+
   private
 
   def render_not_found_response
